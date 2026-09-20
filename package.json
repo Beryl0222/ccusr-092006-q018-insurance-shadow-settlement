@@ -1,0 +1,10 @@
+{
+  "name": "insurance-shadow-settlement",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "医保目录影子结算领域资料",
+  "scripts": {
+    "test": "node --test"
+  }
+}
