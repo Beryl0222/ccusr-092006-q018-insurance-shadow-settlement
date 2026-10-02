@@ -1,10 +1,11 @@
 {
   "name": "insurance-shadow-settlement",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "医保目录影子结算领域资料",
+  "description": "医保国家项目目录影子结算后端（演练隔离，不触达真实支付）",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test 'tests/**/*.test.js'",
+    "demo": "node examples/demo.mjs"
   }
 }

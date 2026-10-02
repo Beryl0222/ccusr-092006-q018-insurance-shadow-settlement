@@ -4,6 +4,16 @@
   "occurred_at": "2026-09-20T09:00:00+08:00",
   "subject_id": "demo-018",
   "payload": {
-    "note": "虚构资料，仅用于格式核对"
-  }
+    "artifact_type": "CATALOG",
+    "side": "CANDIDATE",
+    "region": "NATIONAL",
+    "version": "demo-v0",
+    "content_hash": "sha256:demo",
+    "frozen_at": "2026-09-20T09:00:00+08:00",
+    "effective_from": "2026-09-20T09:00:00+08:00",
+    "content": {
+      "note": "虚构资料，仅用于格式核对"
+    }
+  },
+  "data_scope": "SHADOW"
 }
