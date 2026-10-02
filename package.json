@@ -1,10 +1,15 @@
 {
   "name": "insurance-shadow-settlement",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "医保目录影子结算领域资料",
+  "description": "首批国家医疗服务项目目录上线前的影子结算后端：冻结快照、双轨重放、增量修订、抽样复核与发布门槛",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "demo": "node bin/demo.js",
+    "serve": "node bin/serve.js"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

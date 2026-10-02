@@ -10,3 +10,7 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# 影子演练产生的本地获准环境数据目录（含候选目录/伪标识/内部费率，绝不入库）
+.shadow-demo/
+shadow-data/
